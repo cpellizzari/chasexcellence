@@ -634,8 +634,8 @@ p:last-child { margin-bottom: 0; }
   margin-bottom: 0;
 }
 .donate-qr {
-  width: 150px;
-  height: 150px;
+  width: 220px;
+  height: 220px;
   border-radius: 8px;
   background: var(--white);
   padding: 8px;
