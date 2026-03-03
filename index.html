@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CHASExcellence | Basketball Scholarship</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">CHASE<span>xcellence</span></a>
+      <button class="nav-toggle" aria-label="Open menu" onclick="toggleMenu()">&#9776;</button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#values">Values</a>
+        <a href="#scholarship">Scholarship</a>
+        <a href="#events">Events</a>
+        <a href="#impact">Impact</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#donate" class="btn btn-nav">Donate</a>
+        <a href="#nominate" class="btn btn-nav btn-nav-outline">Nominate a Player</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-split">
+      <div class="hero-content">
+        <p class="hero-memory">In Loving Memory of</p>
+        <h1 class="hero-name">Chase Culp <span class="hero-number">#25</span></h1>
+        <p class="hero-dates">December 21, 2011 &ndash; August 30, 2024</p>
+        <p class="hero-tagline">
+          Awarding deserving young athletes who embody the life
+          Chase lived on and off the court.
+        </p>
+        <div class="hero-cta">
+          <a href="#scholarship" class="btn btn-primary">Apply for Scholarship</a>
+          <a href="#about" class="btn btn-outline">Learn More</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="images/chase-portrait.jpg" alt="Chase Culp" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-grid">
+        <div class="about-text">
+          <span class="label">Our Mission</span>
+          <h2>Who We Are</h2>
+          <p>
+            CHASExcellence is a nonprofit scholarship organization founded in honor of
+            <strong>Chase Culp #25</strong>, a 12-year-old athlete from Colorado Springs whose
+            passion for basketball, fierce dedication, and warm spirit touched everyone around him.
+          </p>
+          <p>
+            Chase was more than a player &mdash; he was a teammate, a leader, and a role model.
+            Our mission is to keep his memory alive by investing in young athletes who reflect the
+            same values Chase brought to the game and to life every single day.
+          </p>
+          <div class="about-links">
+            <a href="https://www.dignitymemorial.com/obituaries/colorado-springs-co/chase-culp-11976630" target="_blank" rel="noopener" class="link-underline">Read Chase's Obituary &rarr;</a>
+            <a href="https://krdo.com/news/2024/09/05/family-and-friends-remember-12-year-old-killed-in-black-forest-crash/" target="_blank" rel="noopener" class="link-underline">Read the News Story &rarr;</a>
+          </div>
+        </div>
+        <div class="about-photo">
+          <img src="images/chase-25-court.jpg" alt="Chase Culp #25 on the court" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE VALUES -->
+  <section class="section section-dark" id="values">
+    <div class="container">
+      <div class="section-header">
+        <span class="label label-light">The Foundation</span>
+        <h2>Core Values</h2>
+        <p class="section-sub">Every scholarship recipient is evaluated on the four values Chase embodied.</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-letter">T</div>
+          <h3>Toughness</h3>
+          <p>Mental and physical strength through adversity, on and off the court.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-letter">C</div>
+          <h3>Composure</h3>
+          <p>Staying calm and focused under pressure, leading by example.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-letter">U</div>
+          <h3>Unity</h3>
+          <p>Being a great teammate and lifting others up in pursuit of a shared goal.</p>
+        </div>
+        <div class="value-card">
+          <div class="value-letter">D</div>
+          <h3>Dedication</h3>
+          <p>Consistent effort, commitment to improvement, and love for the game.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCHOLARSHIP -->
+  <section class="section" id="scholarship">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">For Athletes</span>
+        <h2>The Scholarship</h2>
+        <p class="section-sub">
+          The CHASExcellence Basketball Scholarship helps cover club team costs and gear
+          for deserving players who represent Chase's values.
+        </p>
+      </div>
+      <div class="scholarship-grid">
+        <div class="scholarship-card">
+          <div class="card-icon">&#127936;</div>
+          <h3>Who Can Apply</h3>
+          <p>
+            Young basketball players who demonstrate Toughness, Composure, Unity, and
+            Dedication in their team and community. Coaches may nominate players on their behalf.
+          </p>
+        </div>
+        <div class="scholarship-card">
+          <div class="card-icon">&#127942;</div>
+          <h3>What's Covered</h3>
+          <p>
+            Scholarship funds go toward club team fees, uniforms, and gear &mdash; removing
+            financial barriers so that talent and heart determine who gets to play.
+          </p>
+        </div>
+        <div class="scholarship-card">
+          <div class="card-icon">&#128221;</div>
+          <h3>How to Apply</h3>
+          <p>
+            Fill out the scholarship application below. Coaches can also scan the QR code
+            at CHASExcellence events to nominate a deserving player directly.
+          </p>
+        </div>
+      </div>
+      <div class="scholarship-cta">
+        <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAa__YJn8lRURUs1WTUwTFBQTVZZSllKR0hTSExVOUVPUC4u" target="_blank" rel="noopener" class="btn btn-primary">Apply for Scholarship</a>
+        <p class="cta-note">Applications reviewed on a rolling basis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAST RECIPIENTS -->
+  <section class="section section-green-light" id="recipients">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Class of 2024</span>
+        <h2>Scholarship Recipients</h2>
+        <p class="section-sub">Congratulations to our past award winners who exemplify CHASExcellence.</p>
+      </div>
+      <div class="recipients-grid">
+        <div class="recipient-card">
+          <div class="recipient-avatar">K</div>
+          <p class="recipient-name">Kevin</p>
+        </div>
+        <div class="recipient-card">
+          <div class="recipient-avatar">J</div>
+          <p class="recipient-name">Josiah</p>
+        </div>
+        <div class="recipient-card">
+          <div class="recipient-avatar">J</div>
+          <p class="recipient-name">Jaden</p>
+        </div>
+        <div class="recipient-card">
+          <div class="recipient-avatar">E</div>
+          <p class="recipient-name">Ezekiel</p>
+        </div>
+        <div class="recipient-card">
+          <div class="recipient-avatar">N</div>
+          <p class="recipient-name">Nick</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS -->
+  <section class="section section-dark" id="events">
+    <div class="container">
+      <div class="section-header">
+        <span class="label label-light">Get Involved</span>
+        <h2>Events</h2>
+        <p class="section-sub">Join us on the court and help us raise funds for the next generation of athletes.</p>
+      </div>
+
+      <div class="events-coming-soon">
+        <div class="coming-soon-icon">&#127936;</div>
+        <h3>Next Tournament Coming Soon</h3>
+        <p>Stay tuned for details on the next CHASExcellence Memorial 3v3 Tournament. Check back here or follow us for announcements.</p>
+      </div>
+
+      <div class="events-past-header">
+        <span class="label label-light">Previous Events</span>
+      </div>
+      <div class="event-card-featured event-card-past">
+        <div class="event-badge event-badge-past">Completed</div>
+        <div class="event-content">
+          <div class="event-info">
+            <p class="event-date">August 23, 2025</p>
+            <h3 class="event-title">CHASExcellence Memorial 3v3 Tournament</h3>
+            <p class="event-desc">
+              A day of competitive 3-on-3 basketball held in honor of Chase Culp #25.
+              Proceeds went directly toward scholarship awards for deserving athletes.
+              Presented in partnership with <strong>Hoop Dreams Nation</strong>.
+            </p>
+            <ul class="event-details">
+              <li>&#10003; Over 50 teams participated</li>
+              <li>&#10003; Partnered with Hoop Dreams Nation</li>
+              <li>&#10003; All proceeds benefited the scholarship fund</li>
+            </ul>
+            <a href="https://www.hoopdreamsnation.com/event-details/chasexcellence-memorial-3x3-tournament" target="_blank" rel="noopener" class="btn btn-outline">View Event Recap &rarr;</a>
+          </div>
+          <div class="event-visual">
+            <div class="event-icon-large">&#127936;</div>
+            <p class="event-partner">In partnership with</p>
+            <p class="event-partner-name">Hoop Dreams Nation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT -->
+  <section class="section" id="impact">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">By the Numbers</span>
+        <h2>Our Impact</h2>
+        <p class="section-sub">Every dollar raised goes back to the athletes in our community.</p>
+      </div>
+      <div class="impact-grid">
+        <div class="impact-stat">
+          <div class="stat-number">$2,000<span>+</span></div>
+          <p class="stat-label">Awarded in scholarships</p>
+        </div>
+        <div class="impact-stat">
+          <div class="stat-number">5</div>
+          <p class="stat-label">Scholarship recipients</p>
+        </div>
+        <div class="impact-stat">
+          <div class="stat-number">$1,200</div>
+          <p class="stat-label">Donated for team uniforms</p>
+        </div>
+        <div class="impact-stat">
+          <div class="stat-number">50<span>+</span></div>
+          <p class="stat-label">Teams at our tournament</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section section-green-light" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">Memories</span>
+        <h2>Chase in Action</h2>
+        <p class="section-sub">A glimpse into the life Chase lived on the court.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-tall">
+          <img src="images/gallery-307.jpg" alt="Chase defending on the court" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-350.jpg" alt="Chase with teammates" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-444.jpg" alt="Chase with his family" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-498.jpg" alt="Chase and teammates at bowling" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-541.jpg" alt="Chase with medals at San Diego Sol tournament" />
+        </div>
+        <div class="gallery-item gallery-tall">
+          <img src="images/gallery-588.jpg" alt="Chase with friends on the court" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/chase-orlando.jpg" alt="Chase shooting in Orlando" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/chase-25-court.jpg" alt="Chase #25 watching from the court" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/gallery-617.jpg" alt="Chase with siblings" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE -->
+  <section class="section section-dark" id="donate">
+    <div class="container">
+      <div class="donate-inner">
+        <div class="donate-text">
+          <span class="label label-light">Support the Mission</span>
+          <h2>Make a Donation</h2>
+          <p>
+            Every dollar goes directly toward scholarship awards and gear for young athletes
+            in our community who play with the heart and dedication Chase showed every day he
+            wore #25.
+          </p>
+          <p>Your generosity keeps his legacy alive on courts across Colorado Springs.</p>
+        </div>
+        <div class="donate-card">
+          <div class="donate-jersey">#25</div>
+          <p class="donate-card-title">Donate via Venmo</p>
+          <a href="https://venmo.com/JamieNau" target="_blank" rel="noopener" class="btn btn-venmo">
+            <svg class="venmo-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.96 2c.34 1.3.5 2.61.5 3.94 0 3.28-1.56 6.15-3.9 10.06H9.32L6.62 3.14l4.72-.44 1.41 9.26c1.31-2.22 2.94-5.7 2.94-8.07 0-.9-.16-1.63-.44-2.23L17.96 2z"/>
+            </svg>
+            @JamieNau
+          </a>
+          <p class="donate-note">Tap the button or scan below to donate</p>
+          <img src="images/venmo-qr.png" alt="Venmo QR code for @JamieNau" class="donate-qr" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOMINATE / COACHES -->
+  <section class="section section-dark" id="nominate">
+    <div class="container">
+      <div class="nominate-inner">
+        <div>
+          <span class="label label-light">For Coaches</span>
+          <h2>Nominate a Player</h2>
+          <p>
+            See a player on your roster who embodies Toughness, Composure, Unity, and Dedication?
+            Nominate them for a CHASExcellence scholarship. You can fill out the form below or
+            scan the QR code at our next event.
+          </p>
+          <a href="#" class="btn btn-primary" style="margin-top: 1.5rem;">Nominate a Player</a>
+        </div>
+        <div class="nominate-qr">
+          <img src="images/nominate-qr.png" alt="QR code to nominate a player" />
+          <p class="qr-label">Scan to nominate a player</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">CHASE<span>xcellence</span></p>
+        <p class="footer-tagline">In Loving Memory of Chase Culp #25<br />Dec 21, 2011 &ndash; Aug 30, 2024</p>
+      </div>
+      <div class="footer-links">
+        <p class="footer-heading">Resources</p>
+        <a href="https://www.dignitymemorial.com/obituaries/colorado-springs-co/chase-culp-11976630" target="_blank" rel="noopener">Chase's Obituary</a>
+        <a href="https://krdo.com/news/2024/09/05/family-and-friends-remember-12-year-old-killed-in-black-forest-crash/" target="_blank" rel="noopener">News Story</a>
+        <a href="https://www.hoopdreamsnation.com/event-details/chasexcellence-memorial-3x3-tournament" target="_blank" rel="noopener">3v3 Tournament</a>
+      </div>
+      <div class="footer-links">
+        <p class="footer-heading">Get Involved</p>
+        <a href="#scholarship">Apply for Scholarship</a>
+        <a href="#nominate">Nominate a Player</a>
+        <a href="#events">Upcoming Events</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 CHASExcellence. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
