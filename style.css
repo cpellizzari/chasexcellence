@@ -375,10 +375,6 @@ p:last-child { margin-bottom: 0; }
 .gallery-wide {
   grid-column: span 2;
 }
-.gallery-landscape img {
-  object-fit: contain;
-  background: #0d2b24;
-}
 
 /* ---- Core Values ---- */
 .values-grid {
