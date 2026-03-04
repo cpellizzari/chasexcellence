@@ -577,6 +577,76 @@ p:last-child { margin-bottom: 0; }
   color: rgba(255,255,255,0.7);
 }
 
+/* ---- Event Media ---- */
+.event-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.event-media-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.75rem;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #000;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.facebook-reel-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  color: var(--white);
+  transition: background var(--transition);
+  height: calc(100% - 1.75rem);
+}
+.facebook-reel-card:hover {
+  background: rgba(255,255,255,0.1);
+}
+.fb-reel-icon {
+  color: #1877F2;
+  flex-shrink: 0;
+}
+.fb-reel-text { flex: 1; }
+.fb-reel-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--white);
+  margin-bottom: 0.25rem;
+}
+.fb-reel-sub {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.55);
+  margin: 0;
+}
+.fb-reel-arrow {
+  color: rgba(255,255,255,0.4);
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
 /* ---- Impact Stats ---- */
 .impact-grid {
   display: grid;
@@ -754,6 +824,7 @@ p:last-child { margin-bottom: 0; }
   .gallery-wide { grid-column: span 2; }
   .event-content { grid-template-columns: 1fr; }
   .event-visual { display: none; }
+  .event-media { grid-template-columns: 1fr; }
   .donate-inner { grid-template-columns: 1fr; }
   .donate-card { min-width: unset; width: 100%; max-width: 360px; }
   .nominate-inner { grid-template-columns: 1fr; }
